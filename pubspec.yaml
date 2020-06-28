@@ -1,0 +1,52 @@
+name: fthedragon
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  url_launcher: ^5.0.2
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.17.1
+
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_package_manager: ^0.2.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - Assets/Images/linkedin.svg
+    - Assets/Images/Astronaut.svg
+    - Assets/Images/instagram.svg
+    - Assets/Images/guard.gif
+    - Assets/Images/dragon.jpg
+    - Assets/Images/github.png
+    - Assets/Images/p1.jpg
+    - Assets/Images/p2.jpg
+    - Assets/Images/p3.jpg
+    - Assets/Images/p4.jpg
+    - Assets/Images/p5.jpg
+    - Assets/Images/p6.jpg
+    - Assets/Images/p7.jpg
+
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: Assets/Fonts/GoogleSans-Regular.ttf
+        - asset: Assets/Fonts/GoogleSans-Bold.ttf
