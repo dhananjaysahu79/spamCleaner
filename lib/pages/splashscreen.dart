@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:fthedragon/pages/cleanerpage.dart';
 
@@ -13,42 +12,16 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   var gif ="https://cdn.dribbble.com/users/1253928/screenshots/9782367/media/d93fc778039fe087a5a4f45a3e507c3a.gif";
   @override
-  @override
-  void initState() {
-    super.initState();
-    //changeScreen();
-  }
-  //  Future changeScreen() async {
-  //  try{
 
-  //  final res= await InternetAddress.lookup('google.com');
-  //  if (res.isNotEmpty && res[0].rawAddress.isNotEmpty){
-  //     await Future.delayed(const Duration(seconds: 2),(){
-  //     Navigator.of(context).pushReplacement(
-  //     MaterialPageRoute<Null>(
-  //     builder:(BuildContext context){
-  //     return Consumer<ThemeNotifier>(
-  //       builder: (context,notifier,child)=>LandingPage(notifier.darktheme));
-  //   }));
-  //  });
-  //  }
 
-  //  } on SocketException catch(_){
-  //     print("cant");
-  //  }
-  //  }
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle(statusBarColor: Colors.transparent,statusBarIconBrightness: Brightness.dark),
+      value: SystemUiOverlayStyle(statusBarColor: Colors.transparent,statusBarIconBrightness:Brightness.dark),
     child:Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         fit: StackFit.expand,
         children: <Widget>[
-          Container(
-            decoration: BoxDecoration(
-              //color: Colors.blue
-            ),
-          ),
           Column(
             children: <Widget>[
               Expanded(

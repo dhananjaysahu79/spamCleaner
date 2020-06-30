@@ -6,7 +6,7 @@ class Replacement extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
-    value: SystemUiOverlayStyle(statusBarColor: Colors.transparent,statusBarIconBrightness: Brightness.dark),
+    value: SystemUiOverlayStyle(statusBarColor: Colors.transparent,),
     child:Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
